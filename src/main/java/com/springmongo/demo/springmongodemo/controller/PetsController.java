@@ -16,6 +16,8 @@ public class PetsController {
     @Autowired
     private PetsRepository repository;
 
+    //RESTFUL routes api 
+
     //GET
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<Pets> getAllPets() {
